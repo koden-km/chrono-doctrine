@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1402620310">
-  <project timestamp="1402620310">
+<coverage generated="1402620598">
+  <project timestamp="1402620598">
     <package name="Icecave\Chrono\Doctrine">
       <file name="/home/travis/build/IcecaveStudios/chrono-doctrine/src/DateTimeType.php">
         <class name="DateTimeType" namespace="Icecave\Chrono\Doctrine">
