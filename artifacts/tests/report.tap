@@ -1,3 +1,15 @@
 TAP version 13
-ok 1 - Icecave\Chrono\Doctrine\PlaceholderTest::testPlaceholder
-1..1
+ok 1 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testGetName
+ok 2 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testToPhp
+ok 3 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testToDatabase
+ok 4 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testToDatabaseFailureIncorrectTimeZone
+ok 5 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testToDatabaseFailureInvalidType
+ok 6 - Icecave\Chrono\Doctrine\DateTimeTypeTest::testClock
+ok 7 - Icecave\Chrono\Doctrine\DateTypeTest::testGetName
+ok 8 - Icecave\Chrono\Doctrine\DateTypeTest::testToPhp
+ok 9 - Icecave\Chrono\Doctrine\DateTypeTest::testToDatabase
+ok 10 - Icecave\Chrono\Doctrine\DateTypeTest::testToDatabaseFailureIncorrectTimeZone
+ok 11 - Icecave\Chrono\Doctrine\DateTypeTest::testToDatabaseFailureInvalidType
+ok 12 - Icecave\Chrono\Doctrine\DateTypeTest::testClock
+ok 13 - Icecave\Chrono\Doctrine\DoctrineTypeInstallerTest::testInstallTypes
+1..13

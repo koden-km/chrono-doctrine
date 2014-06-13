@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="1" assertions="1" failures="0" errors="0" time="0.010394">
-    <testsuite name="Icecave\Chrono\Doctrine\PlaceholderTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/PlaceholderTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.010394">
-      <testcase name="testPlaceholder" class="Icecave\Chrono\Doctrine\PlaceholderTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/PlaceholderTest.php" line="8" assertions="1" time="0.010394"/>
+  <testsuite name="" tests="13" assertions="19" failures="0" errors="0" time="0.475750">
+    <testsuite name="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.393391">
+      <testcase name="testGetName" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="30" assertions="1" time="0.130151"/>
+      <testcase name="testToPhp" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="35" assertions="2" time="0.043472"/>
+      <testcase name="testToDatabase" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="44" assertions="2" time="0.014484"/>
+      <testcase name="testToDatabaseFailureIncorrectTimeZone" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="53" assertions="1" time="0.015376"/>
+      <testcase name="testToDatabaseFailureInvalidType" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="59" assertions="1" time="0.008794"/>
+      <testcase name="testClock" class="Icecave\Chrono\Doctrine\DateTimeTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTimeTypeTest.php" line="65" assertions="2" time="0.181114"/>
+    </testsuite>
+    <testsuite name="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" tests="6" assertions="9" failures="0" errors="0" time="0.073692">
+      <testcase name="testGetName" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="30" assertions="1" time="0.009764"/>
+      <testcase name="testToPhp" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="35" assertions="2" time="0.020028"/>
+      <testcase name="testToDatabase" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="44" assertions="2" time="0.013580"/>
+      <testcase name="testToDatabaseFailureIncorrectTimeZone" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="53" assertions="1" time="0.010234"/>
+      <testcase name="testToDatabaseFailureInvalidType" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="59" assertions="1" time="0.007876"/>
+      <testcase name="testClock" class="Icecave\Chrono\Doctrine\DateTypeTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DateTypeTest.php" line="65" assertions="2" time="0.012210"/>
+    </testsuite>
+    <testsuite name="Icecave\Chrono\Doctrine\DoctrineTypeInstallerTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DoctrineTypeInstallerTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.008667">
+      <testcase name="testInstallTypes" class="Icecave\Chrono\Doctrine\DoctrineTypeInstallerTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/DoctrineTypeInstallerTest.php" line="17" assertions="1" time="0.008667"/>
     </testsuite>
   </testsuite>
 </testsuites>
