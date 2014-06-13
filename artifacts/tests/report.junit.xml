@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="1" assertions="1" failures="0" errors="0" time="0.010394">
+    <testsuite name="Icecave\Chrono\Doctrine\PlaceholderTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/PlaceholderTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.010394">
+      <testcase name="testPlaceholder" class="Icecave\Chrono\Doctrine\PlaceholderTest" file="/home/travis/build/IcecaveStudios/chrono-doctrine/test/suite/PlaceholderTest.php" line="8" assertions="1" time="0.010394"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
